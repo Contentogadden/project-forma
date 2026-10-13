@@ -1,0 +1,1015 @@
+.assignment-sheet.sound-sheet {
+  width: min(1120px, 100%);
+  padding: 26px clamp(20px, 4vw, 58px);
+}
+.sound-sheet > span {
+  margin-top: 24px;
+}
+.sound-sheet > h3 {
+  font-size: clamp(36px, 5vw, 60px);
+  margin: 20px 0 24px;
+}
+.music-workshop {
+  padding: 0;
+  margin: 25px 0;
+}
+.music-intro > span {
+  color: var(--green);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+}
+.music-intro h4 {
+  font:
+    500 30px Newsreader,
+    serif;
+  margin: 16px 0 10px;
+}
+.music-intro p {
+  max-width: 720px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #c4c3b9;
+}
+.sound-transport {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 22px 0;
+  border-block: 1px solid #484941;
+  margin-top: 25px;
+}
+.music-workshop button,
+.music-workshop select {
+  min-height: 44px;
+  border: 1px solid #65665d;
+  background: #22251f;
+  color: var(--paper);
+  padding: 10px 14px;
+  font: inherit;
+  font-size: 13px;
+}
+.music-workshop button:focus-visible,
+.music-workshop input:focus-visible,
+.music-workshop select:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+.music-workshop button:hover:not(:disabled) {
+  border-color: var(--green);
+}
+.music-workshop button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.music-workshop .play-primary,
+.music-workshop .save-music {
+  background: var(--green);
+  color: var(--ink);
+  border-color: var(--green);
+}
+.sound-transport label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+}
+.sound-transport input[type='range'] {
+  width: 95px;
+  accent-color: var(--green);
+}
+.sound-transport input[type='checkbox'] {
+  accent-color: var(--green);
+}
+.sound-transport output {
+  min-width: 55px;
+}
+.audio-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 50px;
+  font-size: 11px;
+  color: #b9bdb0;
+  flex-wrap: wrap;
+}
+.audio-status meter {
+  width: 100px;
+  height: 8px;
+}
+.instrument-panel {
+  margin: 0;
+  border: 1px solid #484941;
+  padding: 24px;
+  min-width: 0;
+}
+.instrument-panel legend {
+  padding: 0 12px;
+  font-size: 11px;
+  color: #c4c3b9;
+}
+.question-notes {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 0 0 20px 50px;
+  font-size: 11px;
+  color: #a9b29c;
+  text-align: center;
+}
+.note-scroll {
+  overflow-x: auto;
+}
+.note-grid {
+  min-width: 380px;
+}
+.note-row {
+  display: grid;
+  grid-template-columns: 50px repeat(8, 1fr);
+  gap: 3px;
+  margin-bottom: 3px;
+  align-items: center;
+}
+.note-row > span {
+  font-size: 11px;
+}
+.music-workshop .note-row button {
+  min-height: 32px;
+  padding: 0;
+  background: #222720;
+  border-color: #343b30;
+  opacity: 1;
+}
+.music-workshop .note-row button:disabled {
+  background: #191c18;
+}
+.music-workshop .note-row button.note-on {
+  background: #7d9862;
+  color: #0f130c;
+}
+.music-workshop .note-row button.note-on:not(:disabled) {
+  background: var(--green);
+}
+.music-workshop .playhead {
+  outline: 2px solid #f3bd72;
+  outline-offset: -2px;
+}
+.music-caption {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #afb4a5;
+  margin-top: 16px;
+}
+.chord-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.chord-grid > div {
+  padding: 18px;
+  background: #20251d;
+  border-top: 3px solid #454d3c;
+}
+.chord-grid span,
+.chord-grid label {
+  font-size: 11px;
+  display: block;
+}
+.chord-grid strong {
+  font:
+    500 50px Newsreader,
+    serif;
+  display: block;
+  margin: 28px 0;
+}
+.chord-grid select {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+.chord-grid > div.current-chord {
+  border-color: var(--green);
+}
+.beat-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+.music-workshop .beat-grid button {
+  min-height: 76px;
+  padding: 10px 0;
+  display: grid;
+  place-items: center;
+}
+.beat-grid small {
+  font-size: 11px;
+}
+.beat-grid b {
+  font-size: 25px;
+}
+.music-workshop .hit-2 {
+  background: var(--green);
+  color: var(--ink);
+}
+.music-workshop .hit-0 {
+  background: transparent;
+  color: #969a8f;
+}
+.beat-grid.triple-meter {
+  grid-template-columns: repeat(6, 1fr);
+}
+.triple-meter button:nth-child(3n) {
+  border-right: 3px solid #f3bd72;
+}
+@media (max-width: 620px) {
+  .music-workshop .note-row button {
+    min-height: 44px;
+  }
+  .note-grid {
+    min-width: 420px;
+  }
+  .beat-grid.triple-meter {
+    column-gap: 6px;
+  }
+}
+.fragment-library,
+.form-slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.fragment-library small {
+  display: block;
+  font-size: 10px;
+  margin-top: 8px;
+  color: #acb4a2;
+}
+.form-slots {
+  margin-top: 30px;
+}
+.form-slots label {
+  border-top: 2px solid #535e46;
+  padding-top: 12px;
+  font-size: 11px;
+}
+.form-slots select {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  margin-top: 10px;
+}
+.form-slots .form-active {
+  border-color: var(--green);
+}
+.tone-select {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+.register-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 22px;
+}
+.register-grid article {
+  background: #20251d;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.register-grid strong {
+  font:
+    500 29px Newsreader,
+    serif;
+}
+.register-grid span,
+.register-grid small {
+  font-size: 11px;
+  color: #b8c0ae;
+}
+.register-grid button[aria-pressed='true'] {
+  background: var(--green);
+  color: var(--ink);
+}
+.music-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.music-feedback {
+  padding: 18px;
+  border-left: 3px solid #d8b374;
+  background: #25261f;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+.music-feedback.passed {
+  border-color: var(--green);
+}
+.sound-tag {
+  color: #426321;
+  font-size: 10px;
+  display: block;
+  margin-top: 8px;
+}
+.assignment-sheet .workshop-notes {
+  margin-top: 30px;
+  font-size: 13px;
+}
+.workshop-notes summary {
+  cursor: pointer;
+  padding: 14px 0;
+  border-top: 1px solid #565650;
+}
+@media (max-width: 620px) {
+  .instrument-panel {
+    padding: 12px;
+  }
+  .chord-grid,
+  .register-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .register-grid article:last-child {
+    grid-column: 1/-1;
+  }
+  .chord-grid strong {
+    margin: 12px 0;
+    font-size: 36px;
+  }
+  .beat-grid {
+    gap: 4px;
+  }
+  .music-workshop .beat-grid button {
+    min-height: 62px;
+  }
+  .fragment-library,
+  .form-slots {
+    gap: 6px;
+  }
+  .fragment-library button {
+    padding: 10px 4px;
+  }
+  .sound-transport label {
+    width: 100%;
+  }
+  .sound-transport input[type='range'] {
+    flex: 1;
+  }
+  .sound-sheet > h3 {
+    font-size: 38px;
+  }
+  .question-notes {
+    margin-left: 0;
+  }
+  .music-workshop {
+    margin-top: 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sound-sheet {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+.assignment-sheet.sound-sheet {
+  padding: 24px clamp(18px, 4vw, 50px);
+  background: #171b18;
+}
+.assignment-sheet.sound-sheet > span {
+  margin-top: 30px;
+}
+.assignment-sheet.sound-sheet > h3 {
+  font-size: clamp(27px, 3.5vw, 40px);
+  line-height: 1.1;
+  margin: 14px 0 12px;
+  max-width: 850px;
+}
+.guided-workshop {
+  margin: 0;
+}
+.lesson-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 24px;
+}
+.lesson-heading > p {
+  max-width: 600px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  color: #d1d3c9;
+}
+.piano-badge {
+  flex-shrink: 0;
+  font-size: 11px;
+  color: #b6d99b;
+}
+.piano-badge small {
+  display: block;
+  color: #a7b19f;
+  font-size: 9px;
+  margin-top: 5px;
+}
+.lesson-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  list-style: none;
+  margin: 26px 0 20px;
+  border-bottom: 1px solid #4c5449;
+}
+.lesson-steps li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 12px;
+  color: #9ea89a;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+.lesson-steps li > span {
+  font-size: 10px;
+  font-family: monospace;
+}
+.lesson-steps .step-current {
+  color: var(--paper);
+  border-color: var(--green);
+}
+.listen-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background: #252d23;
+  padding: 16px 20px;
+  border-left: 2px solid #a8c692;
+}
+.listen-card strong,
+.editor-heading > div > span,
+.lesson-finish > div > span {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a9c098;
+}
+.listen-card p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 8px 0 0;
+  color: #c8cfc3;
+}
+.listen-card > button {
+  flex-shrink: 0;
+}
+.editor-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 28px 0 14px;
+}
+.editor-heading h4 {
+  font:
+    500 29px Newsreader,
+    serif;
+  margin: 7px 0;
+}
+.editor-heading p {
+  font-size: 12px;
+  color: #b9c1b3;
+  margin: 0;
+  line-height: 1.5;
+}
+.editor-heading > button {
+  background: transparent;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+.guided-workshop .instrument-panel {
+  padding: 18px;
+  background: #1b211b;
+  border-color: #404c3c;
+}
+.guided-workshop .instrument-panel legend {
+  font-size: 10px;
+}
+.editor-heading > div > span {
+  display: block;
+  margin-bottom: 8px;
+}
+.score-paper {
+  background: #efe9db;
+  color: #343c30;
+  padding: 10px 16px 5px;
+  border-radius: 2px;
+}
+.score-caption {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  gap: 12px;
+}
+.notation {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 160px;
+  fill: #475340;
+}
+.staff-line {
+  stroke: #a5aa9a;
+  stroke-width: 1;
+}
+.bar-line {
+  stroke: #87907b;
+  stroke-width: 1;
+}
+.note-stem,
+.ledger {
+  stroke: currentColor;
+  stroke-width: 1.7;
+}
+.note-name {
+  font: 13px sans-serif;
+  fill: #515b47;
+}
+.editable-note {
+  fill: #8e3828;
+  color: #8e3828;
+}
+.note-highlight {
+  fill: #b1d88c;
+  opacity: 0.6;
+}
+.sounding-note {
+  fill: #2c551b;
+}
+.rest-mark {
+  font: 22px serif;
+}
+.clef {
+  font-family: serif;
+}
+.note-slots {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 5px;
+  margin-top: 14px;
+}
+.music-workshop .note-slots button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 3px;
+  min-height: 82px;
+}
+.note-slots small {
+  font-size: 10px;
+}
+.note-slots strong {
+  font-size: 16px;
+}
+.note-slots span {
+  font-size: 9px;
+  color: #b7c1ae;
+}
+.music-workshop .note-slots .slot-given {
+  opacity: 0.7;
+  border-color: transparent;
+  background: transparent;
+}
+.music-workshop button.slot-selected {
+  border-color: var(--green);
+  box-shadow: inset 0 -3px var(--green);
+}
+.music-workshop button.slot-playing {
+  background: #647c4a;
+  color: #fff;
+}
+.keyboard-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  margin: 22px 0 12px;
+  font-size: 12px;
+}
+.keyboard-heading span {
+  font-size: 10px;
+  color: #a9b39f;
+}
+.piano-keys {
+  display: flex;
+  position: relative;
+  max-width: 620px;
+  margin: auto;
+  gap: 3px;
+}
+.music-workshop .piano-keys button {
+  flex: 1;
+  height: 105px;
+  min-width: 0;
+  padding: 10px 2px;
+  background: #eee9db;
+  color: #303929;
+  border: 1px solid #c8ccb8;
+  border-bottom: 5px solid #a3aa95;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 12px;
+}
+.music-workshop .piano-keys .black-key {
+  position: absolute;
+  z-index: 1;
+  width: 7.5%;
+  height: 65px;
+  background: #20251e;
+  color: #fff;
+  border-color: #0c100b;
+  transform: translateX(-50%);
+  font-size: 10px;
+}
+.music-workshop .piano-keys .key-selected {
+  background: #b8ee84;
+  border-bottom-color: #6f9452;
+}
+.music-workshop .piano-keys .black-key.key-selected {
+  background: #65883f;
+}
+.music-workshop .rest-button {
+  display: block;
+  margin: 10px auto 0;
+  padding: 4px 12px;
+  min-height: 32px;
+  background: transparent;
+  color: #c4caba;
+  border-color: transparent;
+  font-size: 11px;
+}
+.bass-route,
+.chord-route {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.bass-route > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+}
+.bass-route small,
+.chord-route small {
+  font-size: 10px;
+  color: #b2bea5;
+}
+.bass-route strong {
+  font:
+    500 29px Newsreader,
+    serif;
+}
+.bass-route span {
+  color: #a3cb80;
+}
+.chord-route button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.chord-route strong {
+  font-weight: 500;
+}
+.chord-route span {
+  font-size: 9px;
+  color: #b2bea5;
+}
+.selection-caption {
+  font-size: 12px;
+  margin: 22px 0 12px;
+}
+.chord-palette {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.chord-palette button {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+}
+.chord-palette b {
+  font:
+    500 32px Newsreader,
+    serif;
+  color: #bedc9f;
+}
+.chord-palette strong {
+  font-weight: 500;
+}
+.chord-palette small {
+  color: #b2bea5;
+  font-size: 11px;
+}
+.chord-palette span {
+  font-size: 9px;
+  margin-top: 8px;
+}
+.chord-palette button[aria-pressed='true'] {
+  background: #33442b;
+  border-color: #a1c284;
+}
+.rhythm-bars {
+  display: grid;
+  gap: 22px;
+}
+.bar-caption {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+.bar-caption span {
+  color: #b6cb9c;
+}
+.guided-workshop .beat-grid.triple-meter {
+  grid-template-columns: repeat(3, 1fr);
+}
+.guided-workshop .beat-grid span {
+  font-size: 9px;
+}
+.guided-workshop .beat-grid button {
+  min-height: 95px;
+  border-radius: 3px;
+}
+.guided-workshop .beat-grid b {
+  line-height: 1;
+}
+.form-route {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.form-route button {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.form-route strong {
+  font:
+    500 44px Newsreader,
+    serif;
+}
+.form-route small {
+  font-size: 11px;
+}
+.form-route span {
+  font-size: 10px;
+  color: #b6cb9c;
+}
+.fragment-library article {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.fragment-library article > button:first-child {
+  font-size: 25px;
+}
+.fragment-library article > button:last-child {
+  font-size: 11px;
+  background: transparent;
+}
+.guided-workshop .register-grid {
+  margin-top: 0;
+}
+.register-drawing {
+  font-size: 36px !important;
+  line-height: 1.5;
+  letter-spacing: 6px;
+  color: #a7c991 !important;
+}
+.register-selected {
+  outline: 1px solid var(--green);
+}
+.workshop-player {
+  padding: 18px 0 0;
+}
+.player-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.guided-workshop .audio-status {
+  min-height: 38px;
+  font-size: 10px;
+}
+.guided-workshop .audio-status meter {
+  width: 70px;
+}
+.sound-settings,
+.lesson-hint,
+.method-note {
+  border-top: 1px solid #404b3c;
+  padding: 12px 0;
+  font-size: 12px;
+}
+.sound-settings summary,
+.lesson-hint summary,
+.method-note summary {
+  cursor: pointer;
+  color: #c1cbb8;
+  min-height: 24px;
+}
+.sound-settings .sound-transport {
+  margin: 0;
+  border: 0;
+  padding: 15px 0 6px;
+}
+.lesson-hint p,
+.method-note p {
+  max-width: 760px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #b6c0ad;
+}
+.method-note {
+  margin-top: 24px;
+}
+.method-note a {
+  color: #c2dba9;
+}
+.lesson-finish {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-top: 1px solid #59664f;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.lesson-finish > div {
+  flex: 1;
+  min-width: 200px;
+}
+.lesson-finish p {
+  font-size: 11px;
+  color: #b6c0ad;
+  margin: 8px 0;
+}
+.guided-workshop .music-feedback {
+  font-size: 13px;
+}
+.guided-workshop .music-caption {
+  font-size: 11px;
+}
+@media (max-width: 650px) {
+  .lesson-heading {
+    display: block;
+  }
+  .piano-badge {
+    display: block;
+    margin-top: 14px;
+  }
+  .piano-badge small {
+    display: inline;
+    margin-left: 10px;
+  }
+  .listen-card {
+    display: block;
+    padding: 14px;
+  }
+  .listen-card > button {
+    margin-top: 12px;
+    width: 100%;
+  }
+  .editor-heading {
+    gap: 10px;
+  }
+  .editor-heading h4 {
+    font-size: 25px;
+  }
+  .editor-heading > button {
+    padding: 8px;
+    min-width: 44px;
+  }
+  .guided-workshop .instrument-panel {
+    padding: 10px;
+  }
+  .score-paper {
+    padding: 9px 3px 4px;
+  }
+  .score-caption {
+    padding: 0 6px;
+  }
+  .note-slots {
+    gap: 3px;
+  }
+  .music-workshop .note-slots button {
+    min-height: 70px;
+    padding: 8px 1px;
+  }
+  .note-slots strong {
+    font-size: 12px;
+  }
+  .note-slots span {
+    font-size: 8px;
+  }
+  .keyboard-heading span {
+    display: none;
+  }
+  .music-workshop .piano-keys button {
+    height: 100px;
+    font-size: 11px;
+  }
+  .chord-route {
+    gap: 4px;
+  }
+  .chord-route button {
+    padding: 10px 2px;
+    font-size: 10px;
+  }
+  .chord-palette {
+    gap: 5px;
+  }
+  .chord-palette button {
+    padding: 12px 4px;
+    font-size: 11px;
+  }
+  .chord-palette small {
+    font-size: 9px;
+  }
+  .chord-palette span {
+    display: none;
+  }
+  .bass-route {
+    gap: 4px;
+  }
+  .bass-route small {
+    font-size: 8px;
+  }
+  .guided-workshop .beat-grid button {
+    min-height: 76px;
+  }
+  .guided-workshop .beat-grid span {
+    display: none;
+  }
+  .form-route {
+    gap: 6px;
+  }
+  .form-route small {
+    font-size: 9px;
+  }
+  .player-buttons > button:last-child {
+    flex: 1;
+    min-width: 180px;
+  }
+  .lesson-finish > div {
+    flex-basis: 100%;
+  }
+  .lesson-finish > button {
+    flex: 1;
+  }
+  .guided-workshop .register-grid {
+    grid-template-columns: 1fr;
+  }
+  .register-drawing {
+    display: none;
+  }
+  .lesson-steps li {
+    gap: 6px;
+    font-size: 11px;
+  }
+}
+.sound-sheet .listen-card.listening-progress > div,
+.sound-sheet .music-workshop .lesson-finish > div {
+  display: block;
+}
+.sound-sheet .listen-card.listening-progress {
+  gap: 12px;
+  padding: 12px 0;
+  margin-bottom: 12px;
+  background: transparent;
+}
+.sound-sheet .listen-card.listening-progress strong {
+  font-size: 12px;
+  color: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.sound-sheet .listen-card.listening-progress p {
+  color: inherit;
+  opacity: 0.75;
+}

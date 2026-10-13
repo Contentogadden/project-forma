@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: project-forma
+  datasource:
+    url: jdbc:h2:file:./data/project-forma;DB_CLOSE_ON_EXIT=FALSE
+    username: ${FORMA_DB_USERNAME:forma}
+    password: ${FORMA_DB_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+server:
+  port: ${PORT:8080}
+  servlet:
+    session:
+      cookie:
+        http-only: true
+        same-site: lax
+      timeout: 8h
+
+forma:
+  demo-accounts:
+    enabled: ${FORMA_DEMO_ACCOUNTS:true}
+    admin-password: ${FORMA_ADMIN_PASSWORD:FormaAdmin!26}
+    teacher-password: ${FORMA_TEACHER_PASSWORD:FormaTeacher!26}
+    student-password: ${FORMA_STUDENT_PASSWORD:FormaStudent!26}

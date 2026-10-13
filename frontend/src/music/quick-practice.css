@@ -1,0 +1,140 @@
+.quick-practice {
+  max-width: 850px;
+  margin: 24px auto;
+  padding: 0 24px;
+  color: #143d33;
+}
+.quick-practice nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.quick-practice button {
+  padding: 12px 18px;
+  min-height: 44px;
+  border: 1px solid #a6ada0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+.quick-practice nav button[aria-pressed='true'],
+.quick-practice .quick-main {
+  background: #143d33;
+  color: #f5efdf;
+}
+.quick-card {
+  padding: 24px 32px;
+  border: 1px solid #b4b8aa;
+  background: #f3eedf;
+  min-height: 410px;
+}
+.quick-card header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.quick-card h3 {
+  font:
+    500 30px Newsreader,
+    serif;
+  margin: 24px 0;
+  text-align: center;
+}
+.quick-staff {
+  width: 100%;
+  max-height: 175px;
+  fill: currentColor;
+}
+.quick-listen {
+  display: block;
+  margin: 12px auto 24px;
+}
+.quick-choices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.quick-choices button {
+  min-width: 80px;
+}
+.quick-choices .correct {
+  background: #d8e8c7;
+  border-color: #426841;
+}
+.quick-choices .incorrect {
+  background: #f1d6cf;
+  border-color: #a84030;
+}
+.quick-choices button:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.quick-feedback {
+  text-align: center;
+  min-height: 110px;
+  padding-top: 20px;
+}
+.quick-feedback p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.quick-practice > small {
+  display: block;
+  margin-top: 12px;
+  font-size: 11px;
+}
+.practice-mode {
+  display: flex;
+  gap: 8px;
+  margin: 16px 4%;
+}
+.practice-mode button {
+  padding: 12px 20px;
+  border: 1px solid #a6ada0;
+  background: transparent;
+  min-height: 44px;
+}
+.practice-mode button[aria-pressed='true'] {
+  background: #143d33;
+  color: #f5efdf;
+}
+@media (max-width: 600px) {
+  .quick-practice {
+    padding: 0 12px;
+    margin: 18px auto;
+  }
+  .quick-card {
+    padding: 18px 12px;
+  }
+  .quick-card h3 {
+    font-size: 25px;
+  }
+  .quick-practice nav button {
+    flex: 1;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .quick-choices button {
+    padding: 12px;
+    min-width: 60px;
+  }
+}
+.ai-consent {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  text-align: left;
+  margin: 16px auto;
+  max-width: 480px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.ai-consent input {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}

@@ -1,0 +1,289 @@
+{
+  "telemann": {
+    "source": "Telemann.jpg",
+    "credit": "Valentin Daniel Preisler",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Telemann.jpg"
+  },
+  "handel": {
+    "source": "George_Frideric_Handel_by_Balthasar_Denner.jpg",
+    "credit": "Attributed to Balthasar Denner",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
+  },
+  "corelli": {
+    "source": "Arcangelo_Corelli,_portrait_by_Hugh_Howard_(1697).jpg",
+    "credit": "Hugh Howard",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arcangelo_Corelli,_portrait_by_Hugh_Howard_(1697).jpg"
+  },
+  "couperin": {
+    "source": "Francois_Couperin_2.jpg",
+    "credit": "Unidentified painter",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francois_Couperin_2.jpg"
+  },
+  "rameau": {
+    "source": "Attribué_à_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg",
+    "credit": "Attributed to Joseph Aved / Formerly attributed to Jean-Baptiste-Siméon Chardin",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Attribu%C3%A9_%C3%A0_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg"
+  },
+  "dscarlatti": {
+    "source": "Retrato_de_Domenico_Scarlatti.jpg",
+    "credit": "Domingo Antonio Velasco",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Domenico_Scarlatti.jpg"
+  },
+  "sweelinck": {
+    "source": "Jan_Pieterszoon_Sweelinck.png",
+    "credit": "Gerrit Pietersz Sweelink",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Pieterszoon_Sweelinck.png"
+  },
+  "monteverdi": {
+    "source": "Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg",
+    "credit": "Bernardo Strozzi",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg"
+  },
+  "cpebach": {
+    "source": "CPEB_by_Löhr.jpg",
+    "credit": "Franz Conrad Löhr / After Johann Philipp Bach",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CPEB_by_L%C3%B6hr.jpg"
+  },
+  "jcbach": {
+    "source": "Johann_Christian_Bach_by_Thomas_Gainsborough.jpg",
+    "credit": "Thomas Gainsborough",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johann_Christian_Bach_by_Thomas_Gainsborough.jpg"
+  },
+  "purcell": {
+    "source": "Portrait_of_Henry_Purcell_(cropped).png",
+    "credit": "John Closterman",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Henry_Purcell_(cropped).png"
+  },
+  "gluck": {
+    "source": "Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg",
+    "credit": "Joseph-Siffred Duplessis",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+  },
+  "boccherini": {
+    "source": "Portrait_de_Luigi_Boccherini,_1814_(cropped).jpg",
+    "credit": "Bourgeois de la Richardière, Antoine-Achille (1777-1838). Graveur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_Luigi_Boccherini,_1814_(cropped).jpg"
+  },
+  "dussek": {
+    "source": "Jan_Ladislav_Dussek.jpg",
+    "credit": "Wilhelm Arndt",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Ladislav_Dussek.jpg"
+  },
+  "kuhlau": {
+    "source": "Friedrich_Kuhlau.gif",
+    "credit": "Christian Horneman",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_Kuhlau.gif"
+  },
+  "reicha": {
+    "source": "Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg",
+    "credit": "Éléonore Anne de Steuben",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg"
+  },
+  "cherubini": {
+    "source": "Portrait_of_Cherubini.jpg",
+    "credit": "François Dumont",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Cherubini.jpg"
+  },
+  "salieri": {
+    "source": "Antonio_Salieri_painted_by_Joseph_Willibrord_Mähler.jpg",
+    "credit": "Joseph Willibrord Mähler",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg"
+  },
+  "schumann": {
+    "source": "Robert_Schumann_1839.jpg",
+    "credit": "Josef Kriehuber",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_1839.jpg"
+  },
+  "wagner": {
+    "source": "RichardWagner.jpg",
+    "credit": "Franz Hanfstaengl",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
+  },
+  "tchaikovsky": {
+    "source": "Tchaikovsky_by_Reutlinger_(cropped).jpg",
+    "credit": "Émile Reutlinger",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg"
+  },
+  "buxtehude": {
+    "source": "Dieterich_Buxtehude.png",
+    "credit": "Johannes Voorhout",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dieterich_Buxtehude.png"
+  },
+  "grieg": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Edvard_Grieg",
+    "error": "License requires separate review: No restrictions"
+  },
+  "berlioz": {
+    "source": "Hector-Berlioz-1845.png",
+    "credit": "w:August Prinzhofer (1816–1885)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hector-Berlioz-1845.png"
+  },
+  "dvorak": {
+    "source": "Dvorak.jpg",
+    "credit": "Unknown author Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dvorak.jpg"
+  },
+  "mendelssohn": {
+    "source": "Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg",
+    "credit": "Eduard Magnus",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg"
+  },
+  "bruckner": {
+    "source": "Anton_Bruckner.jpg",
+    "credit": "Josef Büche",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner.jpg"
+  },
+  "satie": {
+    "source": "Ericsatie.jpg",
+    "credit": "Henri Manuel",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ericsatie.jpg"
+  },
+  "verdi": {
+    "source": "Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
+    "credit": "Ferdinand Mulnier",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg"
+  },
+  "schoenberg": {
+    "source": "阿诺德·勋伯格肖像.jpg",
+    "credit": "Man Ray",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E8%AF%BA%E5%BE%B7%C2%B7%E5%8B%8B%E4%BC%AF%E6%A0%BC%E8%82%96%E5%83%8F.jpg"
+  },
+  "smetana": {
+    "source": "Smetana_LCCN2014716851_(cropped).jpg",
+    "credit": "Bain News Service, publisher",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smetana_LCCN2014716851_(cropped).jpg"
+  },
+  "bartok": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/B%C3%A9la_Bart%C3%B3k",
+    "error": "HTTP 429"
+  },
+  "shostakovich": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
+    "error": "HTTP 429"
+  },
+  "hindemith": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Paul_Hindemith",
+    "error": "HTTP 429"
+  },
+  "messiaen": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Olivier_Messiaen",
+    "error": "HTTP 429"
+  },
+  "poulenc": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Francis_Poulenc",
+    "error": "Missing image information"
+  },
+  "roussel": {
+    "source": "",
+    "credit": "Типографическая карточка Forma",
+    "license": "Оригинальная графика Forma",
+    "licenseUrl": "",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Albert_Roussel",
+    "error": "HTTP 429"
+  },
+  "prokofiev": {
+    "source": "Sergei_Prokofiev_circa_1918_over_Chair_Bain.jpg",
+    "credit": "Bain News Service, publisher",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sergei_Prokofiev_circa_1918_over_Chair_Bain.jpg"
+  },
+  "berg": {
+    "source": "Alban_Berg_(1885–1935)_~1930_©_Max_Fenichel_(1885–1942).jpg",
+    "credit": "Max Fenichel",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alban_Berg_(1885%E2%80%931935)_~1930_%C2%A9_Max_Fenichel_(1885%E2%80%931942).jpg"
+  },
+  "hummel": {
+    "source": "Johann-nepomuk-hummel.jpg",
+    "credit": "Möller?",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johann-nepomuk-hummel.jpg"
+  }
+}

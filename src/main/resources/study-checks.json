@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "interval-spelling",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "До–ре–ми–фа: четыре ступени. Шесть полутонов дают увеличенную кварту; уменьшённая квинта здесь потребовала бы соль♭.",
+    "hint": "Сосчитайте буквенные ступени, включая оба края.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "interval-build",
+    "kind": "notes",
+    "answer": [
+      68
+    ],
+    "explanation": "До–ля♭ охватывает шесть ступеней и восемь полутонов.",
+    "hint": "Малая секста на полутон меньше большой.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "interval-invert",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Малая терция обращается в большую сексту: соль4–ми5. 3 + 6 = 9.",
+    "hint": "Малый интервал при обращении становится большим.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "function-four",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "IV здесь готовит доминанту: субдоминантовая функция.",
+    "hint": "Найдите аккорд между тоникой и доминантой.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "function-leading",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Си — VII ступень до мажора, расположенная на полутон ниже до.",
+    "hint": "Нужна VII ступень, а не основной тон V.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "function-resolve",
+    "kind": "notes",
+    "answer": [
+      72
+    ],
+    "explanation": "Си4 → до5: типичное восходящее разрешение вводного тона. Проверяется только этот ход, не вся каденция.",
+    "hint": "Следующая клавиша на полутон выше си.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "motion-contrary",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Нижний идёт вверх, верхний вниз: противоположное движение.",
+    "hint": "Сравните знаки изменения высоты.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "motion-fifths",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Обе вертикали — чистые квинты, оба голоса идут вверх.",
+    "hint": "Измерьте интервал до и после перемещения.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "motion-repair",
+    "kind": "notes",
+    "answer": [
+      65
+    ],
+    "explanation": "Соль4→фа4 — нисходящий шаг; ре4–фа4 — малая терция. Параллельная квинта устранена. Это локальная проверка двух вертикалей.",
+    "hint": "На шаг ниже соль находится фа.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "consonance-fourth",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Чистая кварта с нижним голосом здесь диссонантна. В иной фактуре и стиле контекст может быть другим.",
+    "hint": "Важно, что до — нижний голос.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "consonance-sixth",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "До–ля — большая секста, несовершенный консонанс. Квинта совершенная; кварта в этой модели диссонантна.",
+    "hint": "Ищите терцию или сексту.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "consonance-third",
+    "kind": "notes",
+    "answer": [
+      66
+    ],
+    "explanation": "Ре4–фа♯4: большая терция, четыре полутона.",
+    "hint": "Терция над ре пишется через фа; большая требует фа♯.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "meter-two",
+    "kind": "accents",
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Акценты на 1, 3 и 5: три группы по две равные четверти.",
+    "hint": "Первый акцент — на первой доле; затем через одну.",
+    "choices": 0,
+    "length": 6
+  },
+  {
+    "id": "meter-three",
+    "kind": "accents",
+    "answer": [
+      0,
+      3
+    ],
+    "explanation": "Акценты на 1 и 4 образуют две группы по три.",
+    "hint": "После первого акцента отсчитайте ещё две четверти.",
+    "choices": 0,
+    "length": 6
+  },
+  {
+    "id": "meter-invariant",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Сохраняются шесть равных четвертей; акцентов становится три вместо двух.",
+    "hint": "Группировка не добавляет звуков и не ускоряет пульс.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "theme-period",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Начальная и ответная фразы связаны повтором; второй кадансовый итог сильнее первого.",
+    "hint": "Сравните силу двух завершений.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "theme-sentence",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Дробление и секвенция создают направленное движение продолжения.",
+    "hint": "После показа темы начинается развитие.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "theme-proof",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Длина не устанавливает формальный тип. Нужны сведения о тематизме, гармонии и каденциях.",
+    "hint": "Разные структуры могут иметь одинаковую длину.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "pc-transpose",
+    "kind": "set",
+    "answer": [
+      2,
+      5,
+      9
+    ],
+    "explanation": "К каждому классу прибавляем 2: {2,5,9}. Порядок на круге не влияет на проверку.",
+    "hint": "Каждый элемент переместите на два деления вперёд.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "pc-invert",
+    "kind": "set",
+    "answer": [
+      0,
+      10,
+      5
+    ],
+    "explanation": "0−0=0; 0−2≡10; 0−7≡5 по модулю 12.",
+    "hint": "Отрицательные числа приведите к диапазону 0…11.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "pc-octaves",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Октавные положения различаются, но класс высоты у них один: 0.",
+    "hint": "Класс высоты не хранит октаву.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ornament-pass",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Ре соединяет до и ми двумя восходящими шагами и не входит в аккорд.",
+    "hint": "Края различны, движение в одном направлении.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ornament-neighbor",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Фа на ступень выше ми; после него возвращается исходный устойчивый звук.",
+    "hint": "Сравните первый и последний звуки.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ornament-fill",
+    "kind": "notes",
+    "answer": [
+      62
+    ],
+    "explanation": "До–ре–ми: оба хода поступенные и направлены вверх.",
+    "hint": "Между до и ми находится ре.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "mode-dorian",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Натуральная VI ступень — ля — отличает эту дорийскую модель от эолийской.",
+    "hint": "Сравните шестую ступень.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "mode-lydian",
+    "kind": "notes",
+    "answer": [
+      66
+    ],
+    "explanation": "Повышенная IV ступень — фа♯. Остальные ступени сохраняются.",
+    "hint": "Поднимите IV ступень на полутон.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "mode-center",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Один звуковой состав допускает разные центры. Набор не сообщает, какой звук становится опорой.",
+    "hint": "Отделите состав от организации материала.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "cadence-perfect",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Основные положения V–I и тоника вверху соответствуют PAC в заданной модели.",
+    "hint": "На каком звуке заканчивается верхний голос?",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "cadence-half",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Завершение фразы на V здесь является половинной каденцией.",
+    "hint": "Не добавляйте отсутствующую тонику.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "cadence-imperfect",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Финальная терция тоники вверху отличает эту IAC от PAC.",
+    "hint": "Проверьте верхний звук последнего аккорда.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "sequence-exact",
+    "kind": "notes",
+    "answer": [
+      62,
+      66,
+      69
+    ],
+    "explanation": "Получается ре–фа♯–ля: каждый звук поднят на два полутона.",
+    "hint": "Прибавьте два к каждой высоте, включая ми.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "sequence-diatonic",
+    "kind": "notes",
+    "answer": [
+      62,
+      65
+    ],
+    "explanation": "До переходит в ре, ми — в фа. Большая терция модели становится малой.",
+    "hint": "Используйте только звуки до мажора.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "sequence-repeat",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Модель повторилась на прежней высоте, поэтому перемещения нет.",
+    "hint": "Сравните начало двух звеньев.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "analysis-fragment",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Дробление и ускорение гармонического ритма — признаки продолжения, но не полный анализ произведения.",
+    "hint": "Спросите, показывает участок материал или развивает его.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "analysis-pause",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Пауза — наблюдаемый факт. Для кадансовой классификации нужны дополнительные данные.",
+    "hint": "Не подменяйте неизвестную гармонию догадкой.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "analysis-evidence",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Размер единиц можно проверить по разметке. Название раздела требует контекста; намерение автора — источников.",
+    "hint": "Выберите то, что можно проверить по музыкальному тексту.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "triad-minor-build",
+    "kind": "notes",
+    "answer": [
+      60,
+      63,
+      67
+    ],
+    "explanation": "До–ми♭–соль: интервалы от основания 3 и 7 полутонов.",
+    "hint": "Основание — до, квинта чистая.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "triad-diminished",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Две малые терции дают уменьшённую квинту.",
+    "hint": "Сравните крайние звуки.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "triad-root",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Терцовая цепь до–ми–соль начинается с до.",
+    "hint": "Переставьте, не меняя состав.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "seventh-c7",
+    "kind": "notes",
+    "answer": [
+      60,
+      64,
+      67,
+      70
+    ],
+    "explanation": "Малая септима над до — си♭, десять полутонов.",
+    "hint": "Сохраните мажорную терцию.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "seventh-major",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Изменяется септима: малая становится большой.",
+    "hint": "Не меняйте трезвучие.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "seventh-minor",
+    "kind": "notes",
+    "answer": [
+      60,
+      63,
+      67,
+      70
+    ],
+    "explanation": "До–ми♭–соль–си♭.",
+    "hint": "Малая терция и малая септима.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "ear-minor-third",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "В образце до–ми♭: три полутона.",
+    "hint": "Сравните с более широкой большой терцией.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ear-perfect-fifth",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Ре–ля: семь полутонов, чистая квинта.",
+    "hint": "Нужен интервал уже сексты.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ear-semitone",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Ми–фа: один полутон.",
+    "hint": "Это самый тесный шаг из предложенных.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ear-chord-minor",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Звучит до–ми♭–соль.",
+    "hint": "Средний звук ниже мажорной терции.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ear-chord-augmented",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "До–ми–соль♯ содержит две большие терции.",
+    "hint": "Сравните крайнее расстояние с чистой квинтой.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ear-chord-seven",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "До–ми–соль–си♭: мажорное трезвучие с малой септимой.",
+    "hint": "Сначала терция, затем септима.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "memory-preserve",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "В B сохранены до–ре–соль–ми.",
+    "hint": "Сравните третий звук.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "memory-end",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "В C сохранены соль–ми–ре–до.",
+    "hint": "Не ограничивайтесь первыми двумя звуками.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "memory-start",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "В A сохранены ре–фа–ми–ля.",
+    "hint": "Первый звук также участвует в сравнении.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rhythm-augment",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "В C длительности и расстояния между атаками удвоены.",
+    "hint": "Не выбирайте простой перенос по высоте.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rhythm-diminish",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "В A каждая единица занимает половину исходного времени.",
+    "hint": "Сохраняется последовательность высот.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rhythm-tempo",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Изменён ритмический масштаб событий.",
+    "hint": "Проверяйте время, не высоту.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "grid-offbeat",
+    "kind": "accents",
+    "answer": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "explanation": "Выбраны ячейки 2, 4, 6, 8.",
+    "hint": "Первая ячейка — начало первой доли.",
+    "choices": 0,
+    "length": 8
+  },
+  {
+    "id": "grid-downbeat",
+    "kind": "accents",
+    "answer": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "explanation": "Пульс расположен в ячейках 1, 3, 5, 7.",
+    "hint": "Начните с первой и выбирайте через одну.",
+    "choices": 0,
+    "length": 8
+  },
+  {
+    "id": "grid-offset",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Меняется положение опор, а не пульс.",
+    "hint": "Сравните расстояния между акцентами.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "applied-build",
+    "kind": "notes",
+    "answer": [
+      62,
+      66,
+      69
+    ],
+    "explanation": "Ре–фа♯–ля: V к соль мажору.",
+    "hint": "Терция над ре должна быть большой.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "applied-leading",
+    "kind": "notes",
+    "answer": [
+      67
+    ],
+    "explanation": "Фа♯→соль: восходящий полутон.",
+    "hint": "Цель уже дана.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "applied-evidence",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Без более широкого подтверждения это не доказательство модуляции.",
+    "hint": "Не подменяйте локальное направление общей тональностью.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "mixture-iv",
+    "kind": "notes",
+    "answer": [
+      68
+    ],
+    "explanation": "Ля♭ превращает фа-мажорное трезвучие в фа-минорное.",
+    "hint": "Понизьте ля на полутон.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "mixture-key",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Общая тоника до, но минорный лад.",
+    "hint": "Одноимённость означает одинаковую тонику.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "mixture-flat-six",
+    "kind": "set",
+    "answer": [
+      8,
+      0,
+      3
+    ],
+    "explanation": "Ля♭–до–ми♭: классы 8, 0, 3.",
+    "hint": "Большая терция и чистая квинта от ля♭.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "spacing-first",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Терция аккорда ми находится в басу.",
+    "hint": "Корень аккорда всё ещё до.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "spacing-second",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Квинта в басу определяет второе обращение.",
+    "hint": "Сравните бас с до–ми–соль.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "spacing-register",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Бас до остался корнем; перенос верха не меняет обращение.",
+    "hint": "Проверяйте бас.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "pedal-hold",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "В B одна басовая нота длится весь фрагмент.",
+    "hint": "Непрерывное удержание не равно трём повторным атакам.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "pedal-chord",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Состав ре-минорного трезвучия: ре, фа, ля.",
+    "hint": "Не добавляйте педаль к терцовому определению.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "pedal-moving",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Бас меняет высоту; это не неподвижная педаль до.",
+    "hint": "Регистр не определяет педаль.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "imitation-fifth",
+    "kind": "notes",
+    "answer": [
+      67,
+      69,
+      71
+    ],
+    "explanation": "Соль–ля–си сохраняет два восходящих тона.",
+    "hint": "Прибавьте семь к каждой высоте.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "imitation-delay",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "В A первая атака приходится на третью четверть отсчёта.",
+    "hint": "Проверьте пустое начало.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "imitation-contour",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Тон–тон заменён на полутон–полтора тона.",
+    "hint": "Сравните каждый соседний интервал.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "suspension-resolve",
+    "kind": "notes",
+    "answer": [
+      64
+    ],
+    "explanation": "Фа→ми: кварта над басом становится терцией.",
+    "hint": "Разрешение ниже, не выше.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "suspension-preparation",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Подготавливается именно звук, который будет удержан.",
+    "hint": "Нужны тождество звука и консонантная подготовка.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "suspension-up",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Консонантность итоговой квинты не заменяет требуемую формулу.",
+    "hint": "Проверяйте и направление, и интервальный итог.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ternary-return",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "C воспроизводит до–ре–ми–до.",
+    "hint": "Сравните всю исходную ячейку.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ternary-boundary",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Тематическая схема не заменяет анализ целого.",
+    "hint": "Буквы описывают не все параметры.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "ternary-two",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Известны два раздела; возвращение не задано.",
+    "hint": "Не добавляйте отсутствующий участок.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rondo-middle",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Возвращается рефрен A.",
+    "hint": "Смотрите на чередование опоры и контраста.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rondo-count",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "A стоит на местах 1, 3, 5.",
+    "hint": "Считайте также начальное проведение.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rondo-refrain",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "В A совпадают все четыре высоты.",
+    "hint": "Не принимайте новый эпизод за возвращение.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "motive-reverse",
+    "kind": "notes",
+    "answer": [
+      64,
+      65,
+      62,
+      60
+    ],
+    "explanation": "Порядок перевёрнут, высоты сохранены.",
+    "hint": "Начните с последнего звука.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "motive-mirror",
+    "kind": "notes",
+    "answer": [
+      67,
+      65,
+      64
+    ],
+    "explanation": "Соль–фа–ми: нисходящие 2 и 1 полутон.",
+    "hint": "Опора соль сохраняется.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "motive-fragment",
+    "kind": "notes",
+    "answer": [
+      60,
+      62
+    ],
+    "explanation": "Получена начальная двухзвучная ячейка.",
+    "hint": "Не переносите и не переставляйте.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "collection-whole",
+    "kind": "set",
+    "answer": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "explanation": "Выбраны шесть чётных классов.",
+    "hint": "Каждый шаг равен двум.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "collection-octa",
+    "kind": "set",
+    "answer": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10
+    ],
+    "explanation": "Цепь 0→1→3→4→6→7→9→10→0.",
+    "hint": "Начните с полутона.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "collection-line",
+    "kind": "notes",
+    "answer": [
+      60,
+      61,
+      63,
+      64
+    ],
+    "explanation": "До–до♯–ми♭–ми.",
+    "hint": "Начальный звук тоже входит в ответ.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "symmetry-t3",
+    "kind": "set",
+    "answer": [
+      3,
+      6,
+      9,
+      0
+    ],
+    "explanation": "Набор инвариантен при T3.",
+    "hint": "Приведите 12 к классу 0.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "symmetry-center",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Состав не задаёт единственную опору.",
+    "hint": "Не путайте включение звука и его выделение.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "symmetry-interval",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Четыре шага по три полутона замыкают октаву.",
+    "hint": "Проверьте также 9→0.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "row-retrograde",
+    "kind": "notes",
+    "answer": [
+      62,
+      64,
+      61,
+      60
+    ],
+    "explanation": "Обратный порядок классов: 2,4,1,0.",
+    "hint": "Последний класс становится первым.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "row-repeat",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Есть повтор и пропуск класса.",
+    "hint": "Нужно проверить и число позиций, и уникальность.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "row-order",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Состав совпадает, порядок второго и четвёртого элементов различен.",
+    "hint": "Сравнивайте две характеристики отдельно.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "register-double",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "В C одновременно звучат до3 и до4.",
+    "hint": "Оба звука должны присутствовать.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "register-up",
+    "kind": "notes",
+    "answer": [
+      60,
+      64,
+      67
+    ],
+    "explanation": "Каждый звук поднят на 12 полутонов.",
+    "hint": "Не меняйте интервалы линии.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "register-class",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Октава изменилась; класс ре сохранён.",
+    "hint": "Абсолютная высота отличается.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "analysis-root-degree",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Корень до; ми лишь находится в басу.",
+    "hint": "Перестройте терцовую цепь.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "analysis-dominant-inversion",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Корень соль, терция си в басу.",
+    "hint": "Не назначайте ступень по басу.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "analysis-key-context",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "До — IV ступень соль мажора.",
+    "hint": "Один состав допускает разные ступенные обозначения.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "midi-octave",
+    "kind": "notes",
+    "answer": [
+      72
+    ],
+    "explanation": "12 полутонов дают октаву: до5 в нумерации Forma.",
+    "hint": "60 обозначает до4.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "midi-velocity",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Velocity — отдельное значение атаки. Его звуковой эффект зависит от инструмента.",
+    "hint": "Не путайте параметр MIDI и гарантированный тембр.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "midi-audio",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "MIDI не содержит саму аудиозапись инструмента.",
+    "hint": "События и их озвучивание разделены.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "research-universal",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Один случай вне условия опровергает слово «во всех» для данного корпуса.",
+    "hint": "Утверждение универсальное.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "research-sample",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Вывод ограничен проверенным материалом.",
+    "hint": "Не подменяйте выборку всей совокупностью.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "research-method",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Нужны материал и способ получения результата.",
+    "hint": "Другой исследователь должен повторить ваши действия.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "teaching-observable",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Есть конкретное действие и проверяемый результат.",
+    "hint": "Выберите наблюдаемое действие.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "teaching-alignment",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Подсчёт по открытой записи не изолирует слуховое распознавание.",
+    "hint": "Какими данными ученик пользуется?",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "teaching-transfer",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Новая опора требует применения отношения, не воспроизведения одного имени.",
+    "hint": "Сохраняйте навык, меняйте материал.",
+    "choices": 3,
+    "length": 0
+  }
+,
+  {
+    "id": "notation-second",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "До–ре охватывает две ступени; три полутона дают увеличенную секунду.",
+    "hint": "Считайте буквы, не клавиши.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "notation-natural",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Бекар отменяет предыдущее повышение.",
+    "hint": "Не понижайте натуральный звук ещё раз.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "notation-enharmonic",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Си♯4 на полутон выше си4 и совпадает с до5.",
+    "hint": "Учитывайте границу октавы.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "degree-a-leading",
+    "kind": "notes",
+    "answer": [
+      68
+    ],
+    "explanation": "VII повышена: соль♯4. Клавиша подписана Ля♭4; здесь требуется энгармоническое чтение соль♯.",
+    "hint": "На полутон ниже ля4.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "degree-d-subdominant",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Ре–ми–фа♯–соль: четвёртая ступень соль.",
+    "hint": "Отсчитайте от ре.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "degree-relative",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Обе тональности имеют ключ без знаков.",
+    "hint": "Спросите, где ощущается опора.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "neighbor-upper",
+    "kind": "notes",
+    "answer": [
+      64,
+      65,
+      64
+    ],
+    "explanation": "Верхний сосед ми — фа; затем возвращение к ми.",
+    "hint": "Не продолжайте линию к соль.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "neighbor-lower",
+    "kind": "notes",
+    "answer": [
+      67,
+      65,
+      67
+    ],
+    "explanation": "Соль–фа–соль возвращается к исходному звуку.",
+    "hint": "Нижняя соседняя ступень — фа.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "neighbor-through",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Начальная и конечная опоры различны; линия заполняет терцию.",
+    "hint": "Сравните первый и последний звук.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "dictation-arch",
+    "kind": "notes",
+    "answer": [
+      60,
+      64,
+      60
+    ],
+    "explanation": "До–ми–до: большая терция вверх и возврат.",
+    "hint": "Последний звук равен первому.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "dictation-climb",
+    "kind": "notes",
+    "answer": [
+      60,
+      62,
+      65
+    ],
+    "explanation": "До–ре–фа: тон, затем малая терция.",
+    "hint": "Второй звук на тон выше начала.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "dictation-leap",
+    "kind": "notes",
+    "answer": [
+      60,
+      67,
+      65
+    ],
+    "explanation": "До–соль–фа: квинта вверх, затем тон вниз.",
+    "hint": "После скачка направление меняется.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "two-ear-up",
+    "kind": "notes",
+    "answer": [
+      64,
+      65,
+      67
+    ],
+    "explanation": "Верх ми–фа–соль движется поступенно вверх.",
+    "hint": "Следите за более высоким голосом.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "two-ear-down",
+    "kind": "notes",
+    "answer": [
+      67,
+      65,
+      64
+    ],
+    "explanation": "Верх соль–фа–ми движется вниз.",
+    "hint": "Финальный шаг — полутон.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "two-ear-return",
+    "kind": "notes",
+    "answer": [
+      64,
+      67,
+      64
+    ],
+    "explanation": "Ми–соль–ми возвращается к исходной терции над басом.",
+    "hint": "Сравните начало и конец.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "postear-chromatic",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "До–до♯–ре: каждый шаг равен полутону.",
+    "hint": "Слушайте величину каждого шага.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "postear-whole",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "До–ре–ми: два последовательных тона.",
+    "hint": "Каждый шаг шире полутона.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "postear-repeat",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "До–фа♯–до: возвращение после тритона.",
+    "hint": "Сравните края образца.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "additive-223",
+    "kind": "accents",
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Начала — 1, 3 и 5; последняя группа длится три восьмых.",
+    "hint": "Складывайте длины уже прошедших групп.",
+    "choices": 0,
+    "length": 7
+  },
+  {
+    "id": "additive-322",
+    "kind": "accents",
+    "answer": [
+      0,
+      3,
+      5
+    ],
+    "explanation": "Начала — 1, 4 и 6.",
+    "hint": "Первая группа содержит три ячейки.",
+    "choices": 0,
+    "length": 7
+  },
+  {
+    "id": "additive-332",
+    "kind": "accents",
+    "answer": [
+      0,
+      3,
+      6
+    ],
+    "explanation": "Начала — 1, 4 и 7.",
+    "hint": "Две группы по три, затем две ячейки.",
+    "choices": 0,
+    "length": 8
+  },
+  {
+    "id": "polycycle-32",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "В B низ вступает на 0 и 3, верх — на 0, 2 и 4.",
+    "hint": "Считайте каждый регистр отдельно.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "polycycle-meet",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Внутри цикла пересечение наборов атак — {0}.",
+    "hint": "Не считайте начало следующего цикла.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "polycycle-43",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Шаг 3 делит цикл 12 на четыре равные части.",
+    "hint": "Промежутки, включая возврат к следующему 0, равны.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rhythmlisten-even",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "C: атаки 0,1,2,3.",
+    "hint": "Не считайте четыре удара достаточным условием: интервалы времени тоже должны совпасть.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rhythmlisten-gap",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "A: атаки 0,1,3, третья доля пропущена.",
+    "hint": "Считайте 1–2–3–4.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rhythmlisten-match",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "B повторяет 0,0.5,2,3.",
+    "hint": "Сначала два близких удара, затем длинный промежуток.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "v7-leading-upper",
+    "kind": "notes",
+    "answer": [
+      72
+    ],
+    "explanation": "Си4 → до5.",
+    "hint": "Полутон к тонике.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "v7-seventh-down",
+    "kind": "notes",
+    "answer": [
+      64
+    ],
+    "explanation": "Фа4 → ми4: септима приходит в терцию тоники.",
+    "hint": "На полутон ниже фа.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "v7-pair",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Вводный тон повышается к тонике, септима снижается.",
+    "hint": "У каждого голоса своя направленность.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "chromatic-neapolitan",
+    "kind": "notes",
+    "answer": [
+      61,
+      65,
+      68
+    ],
+    "explanation": "Ре♭–фа–ля♭. Клавиша ре♭ подписана До♯4.",
+    "hint": "Основание на полутон выше до, над ним большая терция.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "chromatic-n6",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Фа — терция аккорда; терция в басу означает первое обращение.",
+    "hint": "Основной тон по-прежнему ре♭.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "chromatic-sixth",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Нижний голос на полутон вниз, верхний на полутон вверх: октава соль.",
+    "hint": "Оба голоса направлены к соль разных октав.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "harmonize-e",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "I содержит до–ми–соль.",
+    "hint": "Сравните три состава.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "harmonize-f",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "IV содержит фа–ля–до.",
+    "hint": "Не добавляйте септиму к V: разрешены трезвучия.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "harmonize-ambiguous",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Соль — квинта I и основной тон V.",
+    "hint": "Сравните составы, не назначайте функцию по одному звуку.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "species-pass",
+    "kind": "notes",
+    "answer": [
+      64,
+      65,
+      67
+    ],
+    "explanation": "Ми–фа–соль. Средняя кварта над до проходит поступенно.",
+    "hint": "Между ми и соль находится фа.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "species-leap",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Ре→фа — терция, то есть скачок. Другие варианты входят в фа шагом. Это проверка входа, не оценка всей линии.",
+    "hint": "Сравните только первый ход.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "species-weak-rule",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Фа→ля — терция вместо поступенного продолжения.",
+    "hint": "Проверяйте оба соседних хода.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "invertible-third",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Большая терция обращается в малую сексту.",
+    "hint": "3 + 6 = 9.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "invertible-fifth",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Соль4–до5 — кварта. В строгом двухголосии это меняет статус вертикали.",
+    "hint": "5 + 4 = 9.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "invertible-sixth",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Малая терция обращается в большую сексту.",
+    "hint": "Размеры интервалов дополняют друг друга до октавы.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "variation-duration",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "C сохраняет до–ми–ре и увеличивает весь временной масштаб вдвое.",
+    "hint": "Сравните и высоты, и длительности.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "variation-register",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Октавный перенос меняет регистр при сохранении интервального рисунка.",
+    "hint": "Различайте интервалы и абсолютные высоты.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "variation-no-proof",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Одной ячейки достаточно для локального наблюдения, но не для классификации целого.",
+    "hint": "Не расширяйте вывод за пределы материала.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "sonata-b-return",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Тематическое соответствие сохраняется, тональный центр меняется на основной.",
+    "hint": "Сравните два названных центра.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "sonata-development-clue",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Дробление и тональная подвижность поддерживают гипотезу разработки.",
+    "hint": "Признак не равен окончательному названию.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "sonata-theme-key",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Тема может появиться и внутри разработки; нужен более широкий контекст.",
+    "hint": "Возвращение материала бывает в разных местах.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "boundary-deceptive",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Доминанта переходит в ля-минорное vi вместо тоники.",
+    "hint": "Последний аккорд — не I.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "boundary-internal",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Есть разрыв звучания, но классификация формы требует большего контекста.",
+    "hint": "Не называйте крупную форму по паузе.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "boundary-tonic-not-cadence",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Каденция — контекстное завершение, не отдельный состав аккорда.",
+    "hint": "Не добавляйте неизвестное предшествие.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "complement-whole",
+    "kind": "set",
+    "answer": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "explanation": "Шесть нечётных классов заполняют отсутствующую половину круга.",
+    "hint": "Каждый выбранный класс должен отсутствовать в исходном наборе.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "complement-diatonic",
+    "kind": "set",
+    "answer": [
+      1,
+      3,
+      6,
+      8,
+      10
+    ],
+    "explanation": "Остаются пять классов: 1,3,6,8,10.",
+    "hint": "Исключите все семь классов до мажора.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "complement-size",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "12−4=8.",
+    "hint": "Считайте разные классы, не ноты с повторениями.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "common-t5",
+    "kind": "set",
+    "answer": [
+      0
+    ],
+    "explanation": "Оба набора содержат только общий 0.",
+    "hint": "Пересечение требует присутствия в обоих наборах.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "common-t4",
+    "kind": "set",
+    "answer": [
+      4
+    ],
+    "explanation": "Общим является класс 4.",
+    "hint": "Не выбирайте 8 и 11: их нет в исходном наборе.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "common-zero",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Ни один класс первого набора не входит во второй.",
+    "hint": "Сравните номера буквально.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rowfragment-t1",
+    "kind": "notes",
+    "answer": [
+      61,
+      64,
+      65,
+      68
+    ],
+    "explanation": "Классы 0,3,4,7 стали 1,4,5,8; порядок сохранён.",
+    "hint": "Прибавьте полутон каждому звуку.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "rowfragment-i0",
+    "kind": "notes",
+    "answer": [
+      60,
+      70,
+      67,
+      63
+    ],
+    "explanation": "Получается [0,10,7,3].",
+    "hint": "Отрицательные результаты приведите к 0–11.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "rowfragment-ri",
+    "kind": "notes",
+    "answer": [
+      63,
+      67,
+      70,
+      60
+    ],
+    "explanation": "RI0=[3,7,10,0].",
+    "hint": "Меняется порядок уже инвертированного фрагмента.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "texture-octaves",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "В A верхний голос на 12 полутонов выше нижнего на каждой атаке.",
+    "hint": "Сравните направления и расстояние.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "texture-independent",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "C: низ до–ре–ми, верх соль–фа–ми.",
+    "hint": "У одного направление вверх, у другого вниз.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "texture-pedal-layer",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Низ повторяет до3, а не следует рисунку верхнего.",
+    "hint": "Проследите только нижние атаки.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "continuo-53",
+    "kind": "notes",
+    "answer": [
+      60,
+      64,
+      67
+    ],
+    "explanation": "До–ми–соль: терция и квинта над до.",
+    "hint": "Включите сам бас.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "continuo-63",
+    "kind": "notes",
+    "answer": [
+      64,
+      67,
+      72
+    ],
+    "explanation": "Ми–соль–до: соль на терцию, до на сексту выше ми.",
+    "hint": "Отсчитывайте от ми, а не от до.",
+    "choices": 0,
+    "length": 0
+  },
+  {
+    "id": "continuo-function",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Функция требует тональности и контекста; цифры показывают интервальный состав.",
+    "hint": "Не превращайте интервальную запись в готовую функцию.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "term-chord",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Терция оказалась в басу; состав трезвучия сохранён.",
+    "hint": "Проверяйте состав и нижний звук.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "term-interval",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Нижний звук перенесён выше верхнего: терция стала секстой.",
+    "hint": "Меняется порядок двух звуков по высоте.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "term-pc",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Определено преобразование каждого класса относительно оси 0.",
+    "hint": "Читайте формулу, не только слово «обращение».",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rq-testable",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Второй вопрос ограничен данным корпусом и наблюдаемым признаком.",
+    "hint": "Выберите вопрос, для которого в материале есть данные.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rq-operational",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Без операционального определения сравнение будет менять смысл от случая к случаю.",
+    "hint": "Уточните, что именно измеряется.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rq-scope",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Вывод должен оставаться в пределах проверенного материала.",
+    "hint": "Не расширяйте корпус мысленно.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "source-variant",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Локализованное расхождение и идентификация источников делают проверку возможной.",
+    "hint": "Сначала документируйте, затем объясняйте.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "source-editor",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Статус редакторского вмешательства должен оставаться видимым.",
+    "hint": "Не приписывайте автору чужое решение.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "source-recording",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Различие можно исследовать, не уничтожая один из источников.",
+    "hint": "Опишите два наблюдаемых объекта.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "corpus-unit",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Разные знаменатели не дают одну частоту на фразу.",
+    "hint": "Назовите, что стоит в знаменателе.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "corpus-repeat",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Задача о уникальных участках, не о количестве звучащих событий.",
+    "hint": "Примените сформулированную единицу, не привычку.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "corpus-exclude",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Неопределённость и её обработка должны быть доступны повторной проверке.",
+    "hint": "Не заменяйте неизвестность догадкой.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "diagnosis-label",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Условие уже показывает различение; следующая проверка касается соответствия звучания и названия.",
+    "hint": "Разделите восприятие и обозначение.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "diagnosis-ui",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Демонстрация управления отделяет интерфейсную трудность от музыкальной.",
+    "hint": "Не выводите музыкальный дефицит из ошибки управления.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "diagnosis-control",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Контролируемое изменение позволяет связать результат с конкретным условием.",
+    "hint": "Уберите конкурирующие объяснения.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "prereq-v7",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Нельзя направлять голоса, пока они не выделены в составе.",
+    "hint": "Найдите предпосылку самого действия.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "prereq-poly",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Полиритмия требует устойчивых равномерных слоёв.",
+    "hint": "Сначала отдельные слои, затем совместный цикл.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "prereq-transfer",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Новая тоника проверяет применение правила за пределами заученного случая.",
+    "hint": "Меняйте музыкальную опору, не оформление.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rubric-specific",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Комментарий указывает место и проверяемую величину изменения.",
+    "hint": "Сформулируйте конкретное действие.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rubric-many",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Без дополнительного ограничения оба консонанса допустимы.",
+    "hint": "Не превращайте один пример в единственный закон.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "rubric-claim",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Результат подтверждает ограниченное действие, не владение всей дисциплиной.",
+    "hint": "Не расширяйте измеряемый навык.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "xml-exchange",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "MusicXML передаёт структуру нотного текста; изображение и аудио не делают её редактируемой автоматически.",
+    "hint": "Нужны ноты, голоса и длительности.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "xml-check",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Имя файла не подтверждает сохранность музыкальной структуры.",
+    "hint": "Сравните переданные данные с исходником.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "xml-sound",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Нотный обмен и фиксация реального аудио решают разные задачи.",
+    "hint": "Сравните структуру записи и структуру нот.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "data-fraction",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "6/20=0.3=30%.",
+    "hint": "Разделите число случаев на число фраз.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "data-normalize",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Сравниваются 10/20 и 15/50, не только числители.",
+    "hint": "Приведите к долям.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "data-reproduce",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Итог без исходных данных и процедуры невозможно воспроизвести.",
+    "hint": "Сохраните путь от материала к числу.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "verify-pitch",
+    "kind": "choice",
+    "answer": [
+      1
+    ],
+    "explanation": "Образец до–ре–ми; ошибочные варианты меняют высоту или порядок.",
+    "hint": "Прослушайте третий звук относительно до.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "verify-citation",
+    "kind": "choice",
+    "answer": [
+      2
+    ],
+    "explanation": "Ссылка — проверяемое указание, не гарантия существования нужного места.",
+    "hint": "Сверяйте первичный материал.",
+    "choices": 3,
+    "length": 0
+  },
+  {
+    "id": "verify-license",
+    "kind": "choice",
+    "answer": [
+      0
+    ],
+    "explanation": "Доступность не сообщает автоматически условия использования. Проверяются права и применимая лицензия.",
+    "hint": "Не приравнивайте доступ к разрешению.",
+    "choices": 3,
+    "length": 0
+  }
+]
